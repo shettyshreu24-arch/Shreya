@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Shreya | MCA Portfolio | Poornaprajna Institute of Management</title>
+  <meta name="title" content="Shreya | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta name="description" content="Portfolio of Shreya, MCA student at Poornaprajna Institute of Management (PIM) Udupi specializing in software development, web technologies, and data science.">
+  <meta name="keywords" content="Shreya Shetty, Shreya, MCA Student, PIM Udupi, Poornaprajna Institute of Management, Software Developer, Web Developer, Portfolio">
+  <meta name="author" content="Shreya Shetty">
+  <meta name="robots" content="index, follow">
+
+  <!-- OpenGraph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shettyshreu24.github.io/">
+  <meta property="og:title" content="Shreya | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta property="og:description" content="Portfolio of Shreya, MCA student at PIM Udupi specializing in software development, web applications, and data analysis.">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Shreya | MCA Portfolio | Poornaprajna Institute of Management">
+  <meta property="twitter:description" content="Portfolio of Shreya, MCA student at PIM Udupi specializing in software development.">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230a1128'/><text x='50%' y='55%' dominant-baseline='middle' text-anchor='middle' font-family='system-ui, sans-serif' font-weight='700' font-size='50' fill='%23ff2a85'>S</text></svg>">
+
+  <!-- Google Fonts Preconnect & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress-bar" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar -->
+  <header id="site-header" class="site-header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Shreya Shetty Portfolio Home">
+        <span class="brand-monogram">S</span>
+        <span class="brand-text">
+          <span class="brand-name">Shreya</span>
+          <span class="brand-sub">MCA • PIM Udupi</span>
+        </span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav id="desktop-nav" class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#aspirations" class="nav-link">Aspirations</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items: Theme Toggle & Resume Modal Trigger -->
+      <div class="header-actions">
+        <button id="theme-toggle-btn" class="icon-btn theme-toggle-btn" type="button" aria-label="Toggle dark and light theme" title="Toggle Theme">
+          <!-- Sun Icon (Light Mode) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (Dark Mode) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button id="open-resume-btn" class="btn btn-outline btn-sm resume-btn" type="button" aria-label="View and Download Resume">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="icon-btn mobile-menu-btn" type="button" aria-label="Open mobile navigation menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu & Overlay -->
+  <div id="mobile-nav-overlay" class="mobile-nav-overlay" aria-hidden="true"></div>
+  <aside id="mobile-nav-drawer" class="mobile-nav-drawer" aria-label="Mobile Navigation" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <span class="brand-monogram">S</span>
+        <span class="brand-text">
+          <span class="brand-name">Shreya</span>
+          <span class="brand-sub">MCA • PIM Udupi</span>
+        </span>
+      </div>
+      <button id="close-mobile-menu-btn" class="icon-btn close-drawer-btn" type="button" aria-label="Close navigation menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-drawer-nav">
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-nav-link">About Me</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Technical Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#experience" class="mobile-nav-link">Work Experience</a></li>
+        <li><a href="#aspirations" class="mobile-nav-link">Career & Interests</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <button id="mobile-resume-btn" class="btn btn-primary btn-block" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+        </svg>
+        <span>View Full Resume</span>
+      </button>
+      <div class="drawer-contact-quick">
+        <a href="mailto:shettyshreu24@gmail.com" class="drawer-link">shettyshreu24@gmail.com</a>
+        <span class="drawer-loc">📍 Udupi, Karnataka</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Content Landmark -->
+  <main id="main-content" class="main-content">
+
+    <!-- HERO SECTION (Text-Focused Introduction) -->
+    <section id="hero" class="hero-section section" aria-labelledby="hero-title">
+      <div class="container hero-container">
+        
+        <!-- Live Status Pill & Academic Indicator -->
+        <div class="hero-meta-strip animate-fade-in">
+          <div class="status-badge" role="status">
+            <span class="status-pulse-dot" aria-hidden="true"></span>
+            <span>Available for Technical Internships & Opportunities</span>
+          </div>
+          <div class="location-badge">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Udupi, Karnataka</span>
+          </div>
+        </div>
+
+        <!-- Text-Focused Introduction Content -->
+        <div class="hero-content">
+          <p class="hero-eyebrow">Hello, I'm <strong class="hero-name-accent">Shreya Shetty</strong></p>
+          <h1 id="hero-title" class="hero-title">
+            First Year MCA Student <br>
+            <span class="hero-title-sub">&amp; Aspiring Software Developer</span>
+          </h1>
+
+          <p class="hero-institution">
+            Pursuing Master of Computer Applications at <strong>Poornaprajna Institute of Management (PIM)</strong>, Udupi.
+          </p>
+
+          <p class="hero-pitch">
+            Passionate about learning new technologies, developing responsive web applications, and exploring data analysis. Dedicated to rigorous discipline, continuous learning, and building modern, reliable software solutions.
+          </p>
+
+          <!-- Primary Actions -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary btn-lg" id="hero-cta-projects">
+              <span>Explore My Work</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            
+            <a href="#contact" class="btn btn-outline btn-lg" id="hero-cta-contact">
+              <span>Get in Touch</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+
+            <button type="button" class="btn btn-ghost btn-lg hero-resume-trigger" id="hero-resume-trigger">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Curriculum Vitae</span>
+            </button>
+          </div>
+
+          <!-- Quick Fact Metrics Strip -->
+          <div class="hero-stats-grid">
+            <div class="stat-card">
+              <span class="stat-number">1st Year</span>
+              <span class="stat-label">MCA at PIM Udupi (2026–2028)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">BCA</span>
+              <span class="stat-label">Graduated in Computer Applications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">Desicrew</span>
+              <span class="stat-label">Data Executive Experience</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Languages (Eng, Kan, Tulu, Hin)</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ABOUT ME & PERSONAL STATEMENT -->
+    <section id="about" class="about-section section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Identity &amp; Philosophy</span>
+          <h2 id="about-heading" class="section-title">About Me</h2>
+          <p class="section-subtitle">A driven student developer committed to continuous growth, discipline, and purpose.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Card -->
+          <div class="card about-main-card">
+            <div class="about-quote-mark" aria-hidden="true">“</div>
+            <h3 class="about-card-title">Personal Statement</h3>
+            <blockquote class="about-quote">
+              "My name is Shreya. I am a college student who is passionate about learning new things and improving my skills. I am a hardworking and motivated person who enjoys exploring new opportunities. My goal is to build a successful career, achieve my dreams, and make my family proud. I believe that dedication, discipline, and continuous learning are the keys to success."
+            </blockquote>
+            <div class="about-author-row">
+              <div class="about-avatar-symbol">SS</div>
+              <div>
+                <strong class="about-author-name">Shreya Shetty</strong>
+                <span class="about-author-role">Master of Computer Applications Candidate • PIM Udupi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Core Values Column -->
+          <div class="about-values-stack">
+            <div class="card value-card">
+              <div class="value-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="value-title">Dedication</h4>
+                <p class="value-desc">Putting sincere effort and undivided attention into every academic subject and coding assignment.</p>
+              </div>
+            </div>
+
+            <div class="card value-card">
+              <div class="value-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h4 class="value-title">Discipline</h4>
+                <p class="value-desc">Structured daily practice, ethical problem-solving, and reliable consistency across all responsibilities.</p>
+              </div>
+            </div>
+
+            <div class="card value-card">
+              <div class="value-icon-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="value-title">Continuous Learning</h4>
+                <p class="value-desc">Embracing new programming paradigms, modern frameworks, and emerging tech with curiosity and humility.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ACADEMIC EDUCATION -->
+    <section id="education" class="education-section section" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Credentials</span>
+          <h2 id="education-heading" class="section-title">Education Journey</h2>
+          <p class="section-subtitle">Structured academic foundation in Computer Applications and Software Development.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Track Line -->
+          <div class="timeline-track" aria-hidden="true"></div>
+
+          <!-- Entry 1: MCA -->
+          <div class="timeline-item current-pursuing">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot active-dot"></span>
+            </div>
+            <div class="timeline-content card">
+              <div class="timeline-header-row">
+                <div class="timeline-meta">
+                  <span class="badge badge-active">Pursuing</span>
+                  <span class="timeline-duration">2026 – 2028</span>
+                </div>
+                <span class="institution-location">📍 Udupi, Karnataka</span>
+              </div>
+              <h3 class="timeline-degree">Master of Computer Applications (MCA)</h3>
+              <h4 class="timeline-institution">Poornaprajna Institute of Management (PIM)</h4>
+              <p class="timeline-specialization">
+                <strong>Specialization:</strong> Computer Applications &amp; Software Development
+              </p>
+              <p class="timeline-details">
+                Engaging in advanced coursework covering Software Engineering, Object-Oriented System Design, Database Systems, Web Architectures, and Algorithm Design at one of Udupi's leading management &amp; computer studies institutes.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="tag">Software Development</span>
+                <span class="tag">Database Systems</span>
+                <span class="tag">Algorithms</span>
+                <span class="tag">Web Technologies</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Entry 2: BCA -->
+          <div class="timeline-item completed">
+            <div class="timeline-marker" aria-hidden="true">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-content card">
+              <div class="timeline-header-row">
+                <div class="timeline-meta">
+                  <span class="badge badge-neutral">Completed</span>
+                  <span class="timeline-duration">2023 – 2026</span>
+                </div>
+                <span class="institution-location">📍 Karnataka</span>
+              </div>
+              <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+              <h4 class="timeline-institution">Undergraduate University Institution</h4>
+              <p class="timeline-specialization">
+                <strong>Specialization:</strong> Computer Applications
+              </p>
+              <p class="timeline-details">
+                Established core competencies in programming fundamentals, computational thinking, relational database systems, operating systems, and web technologies. Completed capstone academic projects and practical computer laboratory coursework.
+              </p>
+              <div class="timeline-tag-list">
+                <span class="tag">Computer Applications</span>
+                <span class="tag">C / Java Basics</span>
+                <span class="tag">DBMS &amp; SQL</span>
+                <span class="tag">HTML &amp; CSS</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: TECHNICAL SKILLS & PROGRAMMING PROFICIENCY -->
+    <section id="skills" class="skills-section section" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 id="skills-heading" class="section-title">Skills &amp; Expertise</h2>
+          <p class="section-subtitle">Verified self-assessment of programming languages, tools, frameworks, and core disciplines.</p>
+        </div>
+
+        <!-- Verified Programming Languages Notice -->
+        <div class="verified-notice-card">
+          <div class="notice-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+          </div>
+          <div class="notice-text">
+            <strong>Authentic &amp; Faithful Self-Assessment:</strong>
+            In accordance with high academic integrity, core language proficiencies reflect verified entry-level student capabilities (<span class="badge-inline">Level: Basic</span>) without inflated claims.
+          </div>
+        </div>
+
+        <!-- Category 1: Core Programming Languages with Explicit Verified Badges -->
+        <div class="skills-group">
+          <h3 class="skills-group-title">
+            <span>Core Programming Languages</span>
+            <span class="skills-group-badge">Verified Exact Levels</span>
+          </h3>
+
+          <div class="core-lang-grid">
+            <!-- Python -->
+            <div class="card lang-card" data-level="basic">
+              <div class="lang-card-header">
+                <div class="lang-meta-info">
+                  <span class="lang-name">Python</span>
+                  <span class="lang-category-label">General Purpose &amp; Data</span>
+                </div>
+                <span class="level-badge badge-basic" title="Verified Level: Basic">Basic</span>
+              </div>
+              <div class="lang-meter-track" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" aria-label="Python expertise level basic">
+                <div class="lang-meter-fill level-fill-basic" style="width: 35%;"></div>
+              </div>
+              <p class="lang-desc">Syntax fundamentals, data structures (lists, dicts), file I/O, and introductory data science packages.</p>
+            </div>
+
+            <!-- Java -->
+            <div class="card lang-card" data-level="basic">
+              <div class="lang-card-header">
+                <div class="lang-meta-info">
+                  <span class="lang-name">Java</span>
+                  <span class="lang-category-label">Object-Oriented Programming</span>
+                </div>
+                <span class="level-badge badge-basic" title="Verified Level: Basic">Basic</span>
+              </div>
+              <div class="lang-meter-track" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" aria-label="Java expertise level basic">
+                <div class="lang-meter-fill level-fill-basic" style="width: 35%;"></div>
+              </div>
+              <p class="lang-desc">Class design, encapsulation, inheritance, interfaces, and core Java console applications.</p>
+            </div>
+
+            <!-- C Language -->
+            <div class="card lang-card" data-level="basic">
+              <div class="lang-card-header">
+                <div class="lang-meta-info">
+                  <span class="lang-name">C</span>
+                  <span class="lang-category-label">Procedural &amp; Systems Logic</span>
+                </div>
+                <span class="level-badge badge-basic" title="Verified Level: Basic">Basic</span>
+              </div>
+              <div class="lang-meter-track" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" aria-label="C expertise level basic">
+                <div class="lang-meter-fill level-fill-basic" style="width: 35%;"></div>
+              </div>
+              <p class="lang-desc">Pointers, memory concepts, functions, structured programming, and algorithm implementations.</p>
+            </div>
+
+            <!-- PHP -->
+            <div class="card lang-card" data-level="basic">
+              <div class="lang-card-header">
+                <div class="lang-meta-info">
+                  <span class="lang-name">PHP</span>
+                  <span class="lang-category-label">Server-Side Scripting</span>
+                </div>
+                <span class="level-badge badge-basic" title="Verified Level: Basic">Basic</span>
+              </div>
+              <div class="lang-meter-track" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100" aria-label="PHP expertise level basic">
+                <div class="lang-meter-fill level-fill-basic" style="width: 35%;"></div>
+              </div>
+              <p class="lang-desc">Server-side request processing, form handling, and integration with MySQL backends.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categorized Technical Skill Stacks -->
+        <div class="skill-categories-grid">
+          
+          <!-- Frontend Development -->
+          <div class="card skill-stack-card">
+            <div class="stack-card-header">
+              <div class="stack-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="stack-title">Frontend Development</h3>
+            </div>
+            <p class="stack-summary">Crafting clean, semantic markup, accessible layouts, and interactive client experiences.</p>
+            <ul class="pill-list" aria-label="Frontend skills">
+              <li class="pill">HTML5</li>
+              <li class="pill">CSS3</li>
+              <li class="pill">JavaScript (ES6+)</li>
+              <li class="pill">Responsive Layouts</li>
+              <li class="pill">DOM Manipulation</li>
+            </ul>
+          </div>
+
+          <!-- Backend Development -->
+          <div class="card skill-stack-card">
+            <div class="stack-card-header">
+              <div class="stack-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <h3 class="stack-title">Backend Development</h3>
+            </div>
+            <p class="stack-summary">Constructing server-side APIs, routing logic, and HTTP endpoint management.</p>
+            <ul class="pill-list" aria-label="Backend skills">
+              <li class="pill">Node.js</li>
+              <li class="pill">Express.js</li>
+              <li class="pill">ASP.NET</li>
+              <li class="pill">RESTful Concepts</li>
+              <li class="pill">Server Routing</li>
+            </ul>
+          </div>
+
+          <!-- Databases & Storage -->
+          <div class="card skill-stack-card">
+            <div class="stack-card-header">
+              <div class="stack-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <h3 class="stack-title">Databases &amp; Storage</h3>
+            </div>
+            <p class="stack-summary">Relational schema design, SQL querying, data normalization, and persistence.</p>
+            <ul class="pill-list" aria-label="Database skills">
+              <li class="pill">MySQL</li>
+              <li class="pill">SQLite</li>
+              <li class="pill">Oracle Database</li>
+              <li class="pill">SQL DDL/DML</li>
+              <li class="pill">Relational Modeling</li>
+            </ul>
+          </div>
+
+          <!-- Data Science & AI -->
+          <div class="card skill-stack-card">
+            <div class="stack-card-header">
+              <div class="stack-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M3 3v18h18"></path>
+                  <path d="m19 9-5 5-4-4-3 3"></path>
+                </svg>
+              </div>
+              <h3 class="stack-title">Data Science &amp; AI</h3>
+            </div>
+            <p class="stack-summary">Tabular data manipulation, statistical arrays, and visual analytical plots.</p>
+            <ul class="pill-list" aria-label="Data Science skills">
+              <li class="pill">NumPy</li>
+              <li class="pill">Pandas</li>
+              <li class="pill">Matplotlib</li>
+              <li class="pill">Data Cleaning</li>
+              <li class="pill">Sentiment Analysis</li>
+            </ul>
+          </div>
+
+          <!-- Cloud & Deployment -->
+          <div class="card skill-stack-card">
+            <div class="stack-card-header">
+              <div class="stack-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <h3 class="stack-title">Cloud &amp; Deployment</h3>
+            </div>
+            <p class="stack-summary">Modern hosting environments, static deployments, and cloud platform familiarity.</p>
+            <ul class="pill-list" aria-label="Cloud skills">
+              <li class="pill">GitHub Pages</li>
+              <li class="pill">Vercel</li>
+              <li class="pill">Microsoft Azure</li>
+              <li class="pill">Static Hosting</li>
+              <li class="pill">Continuous Deployment</li>
+            </ul>
+          </div>
+
+          <!-- Development Tools & Additional Competencies -->
+          <div class="card skill-stack-card">
+            <div class="stack-card-header">
+              <div class="stack-icon-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="stack-title">Tools &amp; Engineering Disciplines</h3>
+            </div>
+            <p class="stack-summary">Essential developer tooling and foundational computer science principles.</p>
+            <ul class="pill-list" aria-label="Tools and concepts">
+              <li class="pill">Git</li>
+              <li class="pill">GitHub</li>
+              <li class="pill">Visual Studio Code</li>
+              <li class="pill">Data Structures &amp; Algorithms</li>
+              <li class="pill">Object-Oriented Programming</li>
+              <li class="pill">UI/UX Design</li>
+              <li class="pill">Responsive Web Design</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: REAL PROJECTS & TECHNICAL ARTIFACTS -->
+    <section id="projects" class="projects-section section" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 id="projects-heading" class="section-title">Projects &amp; Technical Artifacts</h2>
+          <p class="section-subtitle">Real initiatives demonstrating problem-solving, collaboration, and applied software engineering.</p>
+        </div>
+
+        <!-- Project Filtering Tabs -->
+        <div class="filter-tabs-wrapper">
+          <div class="filter-tabs" role="tablist" aria-label="Project Categories">
+            <button class="filter-tab active" type="button" role="tab" aria-selected="true" data-filter="all">All Projects</button>
+            <button class="filter-tab" type="button" role="tab" aria-selected="false" data-filter="web">Web Development</button>
+            <button class="filter-tab" type="button" role="tab" aria-selected="false" data-filter="in-progress">In Progress</button>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project 1: Restaurant Review Sentimental Analysis -->
+          <article class="card project-card" data-category="web in-progress">
+            <div class="project-card-banner">
+              <div class="project-badge-group">
+                <span class="badge badge-category">Web Development</span>
+                <span class="badge badge-warning project-status-badge">
+                  <span class="status-pulse-dot warning-dot" aria-hidden="true"></span>
+                  In Progress
+                </span>
+              </div>
+              <span class="project-type-indicator">Academic &amp; Collaborative Project</span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Restaurant Review Sentimental Analysis</h3>
+              
+              <div class="project-section-block">
+                <span class="project-sublabel">Overview</span>
+                <p class="project-overview-text">
+                  Analyzing customer reviews and ratings of restaurants to extract meaningful sentiment patterns, feedback scores, and actionable satisfaction insights.
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <span class="project-sublabel">Problem Being Solved</span>
+                <p class="project-problem-text">
+                  Tracking how many reviews and ratings are received from customer feedback, determining positive versus negative sentiment trends, and helping eateries understand what customers truly experience.
+                </p>
+              </div>
+
+              <div class="project-section-block contribution-block">
+                <span class="project-sublabel">Key Personal Contributions</span>
+                <p class="project-contribution-text">
+                  "I actively participated in the project by contributing ideas, collecting relevant information, and helping with the planning and development process."
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <span class="project-sublabel">Technologies &amp; Domain Focus</span>
+                <div class="project-tech-stack">
+                  <span class="tech-pill">Python</span>
+                  <span class="tech-pill">Sentiment Analysis</span>
+                  <span class="tech-pill">Data Collection</span>
+                  <span class="tech-pill">Web Interface</span>
+                  <span class="tech-pill">Customer Analytics</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-outline btn-block view-project-details-btn" type="button" data-modal="project-1-modal" aria-label="View detailed breakdown of Restaurant Review Sentimental Analysis">
+                <span>View Project Breakdown</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Academic Practical Showcase Note -->
+          <article class="card project-card upcoming-card" data-category="web">
+            <div class="project-card-banner">
+              <div class="project-badge-group">
+                <span class="badge badge-category">MCA Lab &amp; Coursework</span>
+                <span class="badge badge-neutral">Curriculum</span>
+              </div>
+              <span class="project-type-indicator">Poornaprajna Institute (PIM)</span>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">MCA Practical Lab Systems &amp; Web Architectures</h3>
+              
+              <div class="project-section-block">
+                <span class="project-sublabel">Overview</span>
+                <p class="project-overview-text">
+                  Laboratory implementations in relational database integration (MySQL / Oracle), responsive user interfaces (HTML/CSS/JS), and back-end logic under the Master of Computer Applications curriculum.
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <span class="project-sublabel">Problem Being Solved</span>
+                <p class="project-problem-text">
+                  Applying theoretical database normalization, object-oriented concepts, and client-server workflows into functional, bug-free software modules.
+                </p>
+              </div>
+
+              <div class="project-section-block contribution-block">
+                <span class="project-sublabel">Core Focus</span>
+                <p class="project-contribution-text">
+                  Executing rigorous computer lab experiments, schema design, database querying, and component scripting at PIM Udupi.
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <span class="project-sublabel">Technologies Used</span>
+                <div class="project-tech-stack">
+                  <span class="tech-pill">Java</span>
+                  <span class="tech-pill">MySQL</span>
+                  <span class="tech-pill">HTML5 &amp; CSS3</span>
+                  <span class="tech-pill">JavaScript</span>
+                  <span class="tech-pill">C Programming</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="#skills" class="btn btn-ghost btn-block">
+                <span>Explore Associated Skills</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <polyline points="19 12 12 19 5 12"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: INTERNSHIPS & WORK EXPERIENCE -->
+    <section id="experience" class="experience-section section" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Industry Experience</span>
+          <h2 id="experience-heading" class="section-title">Work Experience</h2>
+          <p class="section-subtitle">Real-world operational experience demonstrating accountability, data handling, and corporate professionalism.</p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Experience Card: Desicrew -->
+          <div class="card experience-card">
+            <div class="experience-top-bar">
+              <div class="company-badge-wrap">
+                <div class="company-icon-box" aria-hidden="true">D</div>
+                <div>
+                  <h3 class="experience-role">Data Executive</h3>
+                  <h4 class="experience-company">Desicrew Pvt Limited</h4>
+                </div>
+              </div>
+              <div class="experience-time-pill">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>2024 – 2026</span>
+              </div>
+            </div>
+
+            <div class="experience-body">
+              <p class="experience-summary">
+                Served as Data Executive at Desicrew Pvt Limited, ensuring rigorous operational standards, reliable verification of critical data records, and precise process adherence across business assignments.
+              </p>
+
+              <h5 class="experience-subheading">Core Responsibilities &amp; Professional Highlights:</h5>
+              <ul class="experience-bullets">
+                <li>
+                  <strong>Data Operations &amp; Quality Control:</strong> Managed, audited, and processed organizational datasets with meticulous attention to accuracy, completeness, and consistency.
+                </li>
+                <li>
+                  <strong>Process Compliance &amp; Record Maintenance:</strong> Executed systematic documentation protocols aligned with internal corporate workflows and quality assurance criteria.
+                </li>
+                <li>
+                  <strong>Analytical Collaboration:</strong> Partnered with team leads and operations colleagues to streamline data flows and troubleshoot discrepancies systematically.
+                </li>
+              </ul>
+
+              <div class="experience-skill-pills">
+                <span class="tag">Data Management</span>
+                <span class="tag">Quality Assurance</span>
+                <span class="tag">Documentation</span>
+                <span class="tag">Process Adherence</span>
+                <span class="tag">Attention to Detail</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: INTERESTS, AMBITIONS & CAREER TRAJECTORY -->
+    <section id="aspirations" class="aspirations-section section" aria-labelledby="aspirations-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Vision &amp; Trajectory</span>
+          <h2 id="aspirations-heading" class="section-title">Interests, Ambitions &amp; Profile</h2>
+          <p class="section-subtitle">Career targets, technology passions, natural languages, and creative pursuits.</p>
+        </div>
+
+        <div class="aspirations-grid">
+          
+          <!-- Target Roles -->
+          <div class="card aspiration-card">
+            <div class="aspiration-header">
+              <div class="aspiration-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="12 8 8 12 12 16 16 12 12 8"></polygon>
+                </svg>
+              </div>
+              <h3 class="aspiration-title">Target Roles</h3>
+            </div>
+            <p class="aspiration-desc">Career positions actively pursuing for internships and entry-level engineering roles:</p>
+            <div class="role-badges-list">
+              <span class="role-badge">Software Developer</span>
+              <span class="role-badge">Web Developer</span>
+              <span class="role-badge">Backend Developer</span>
+              <span class="role-badge">Frontend Developer</span>
+              <span class="role-badge">Data Analyst</span>
+            </div>
+          </div>
+
+          <!-- Primary Areas of Interest -->
+          <div class="card aspiration-card">
+            <div class="aspiration-header">
+              <div class="aspiration-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <h3 class="aspiration-title">Primary Areas of Interest</h3>
+            </div>
+            <p class="aspiration-desc">Specialized technical domains inspiring ongoing research and personal study:</p>
+            <div class="interest-boxes-grid">
+              <div class="interest-item">
+                <span class="interest-name">UI/UX Design</span>
+                <span class="interest-sub">User-centered aesthetics &amp; clean usability</span>
+              </div>
+              <div class="interest-item">
+                <span class="interest-name">Data Science</span>
+                <span class="interest-sub">Insight discovery &amp; analytical models</span>
+              </div>
+              <div class="interest-item">
+                <span class="interest-name">Cybersecurity</span>
+                <span class="interest-sub">Secure coding &amp; computational safety</span>
+              </div>
+              <div class="interest-item">
+                <span class="interest-name">Artificial Intelligence</span>
+                <span class="interest-sub">Intelligent automation &amp; natural language</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Natural Languages Spoken -->
+          <div class="card aspiration-card">
+            <div class="aspiration-header">
+              <div class="aspiration-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+              <h3 class="aspiration-title">Natural Languages Spoken</h3>
+            </div>
+            <p class="aspiration-desc">Multilingual communication facilitating seamless collaboration across diverse teams:</p>
+            <div class="languages-grid">
+              <div class="lang-pill-item">
+                <span class="lang-pill-name">English</span>
+                <span class="lang-pill-status">Professional</span>
+              </div>
+              <div class="lang-pill-item">
+                <span class="lang-pill-name">Kannada</span>
+                <span class="lang-pill-status">Native / Fluent</span>
+              </div>
+              <div class="lang-pill-item">
+                <span class="lang-pill-name">Tulu</span>
+                <span class="lang-pill-status">Native / Fluent</span>
+              </div>
+              <div class="lang-pill-item">
+                <span class="lang-pill-name">Hindi</span>
+                <span class="lang-pill-status">Conversational</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hobbies & Extracurricular Interests -->
+          <div class="card aspiration-card">
+            <div class="aspiration-header">
+              <div class="aspiration-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                  <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                  <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                </svg>
+              </div>
+              <h3 class="aspiration-title">Hobbies &amp; Extracurriculars</h3>
+            </div>
+            <p class="aspiration-desc">Creative pursuits that bring balance, focus, and artistic sensibility:</p>
+            <div class="hobbies-list">
+              <div class="hobby-card">
+                <span class="hobby-emoji" aria-hidden="true">🎨</span>
+                <div>
+                  <strong class="hobby-title">Drawing &amp; Sketching</strong>
+                  <span class="hobby-note">Nurturing an eye for detail, spatial composition, and UI layout aesthetics.</span>
+                </div>
+              </div>
+              <div class="hobby-card">
+                <span class="hobby-emoji" aria-hidden="true">🎤</span>
+                <div>
+                  <strong class="hobby-title">Singing</strong>
+                  <span class="hobby-note">Expressing melody and rhythm, fostering focus, self-expression, and discipline.</span>
+                </div>
+              </div>
+              <div class="hobby-card">
+                <span class="hobby-emoji" aria-hidden="true">🎬</span>
+                <div>
+                  <strong class="hobby-title">Watching Movies</strong>
+                  <span class="hobby-note">Enjoying rich storytelling, creative cinematography, and diverse perspectives.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: CONTACT & GET IN TOUCH -->
+    <section id="contact" class="contact-section section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 id="contact-heading" class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">Reach out for academic collaborations, technical internships, or software discussions.</p>
+        </div>
+
+        <div class="contact-layout">
+          
+          <!-- Contact Direct Information Column -->
+          <div class="contact-info-col">
+            <div class="card contact-card">
+              <h3 class="contact-card-title">Direct Inquiries</h3>
+              <p class="contact-card-sub">
+                Feel free to email or call directly. I actively check messages and will respond promptly.
+              </p>
+
+              <!-- Email Row with Copy to Clipboard -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Email Address</span>
+                  <a href="mailto:shettyshreu24@gmail.com" class="contact-value" id="email-link">shettyshreu24@gmail.com</a>
+                </div>
+                <button type="button" class="btn btn-ghost btn-sm copy-btn" id="copy-email-btn" data-copy="shettyshreu24@gmail.com" aria-label="Copy email address to clipboard" title="Copy Email">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span class="copy-text">Copy</span>
+                </button>
+              </div>
+
+              <!-- Phone Row with Copy to Clipboard -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Phone Number</span>
+                  <a href="tel:8310943543" class="contact-value" id="phone-link">+91 8310943543</a>
+                </div>
+                <button type="button" class="btn btn-ghost btn-sm copy-btn" id="copy-phone-btn" data-copy="8310943543" aria-label="Copy phone number to clipboard" title="Copy Phone">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span class="copy-text">Copy</span>
+                </button>
+              </div>
+
+              <!-- Location Row -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Udupi, Karnataka, India</span>
+                </div>
+              </div>
+
+              <!-- Institution Row -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+                <div class="contact-details">
+                  <span class="contact-label">Institution</span>
+                  <span class="contact-value">Poornaprajna Institute of Management (PIM)</span>
+                </div>
+              </div>
+
+              <!-- Social Links -->
+              <div class="social-links-wrap">
+                <span class="social-links-title">Professional Links:</span>
+                <div class="social-buttons-row">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline social-btn" aria-label="Visit GitHub Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                    <span>GitHub</span>
+                  </a>
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline social-btn" aria-label="Visit LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-col">
+            <div class="card contact-form-card">
+              <h3 class="contact-card-title">Send a Direct Message</h3>
+              <p class="contact-card-sub">
+                Fill out the message details below to compose an instant email to <strong class="text-contrast">shettyshreu24@gmail.com</strong>.
+              </p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name <span class="required-star">*</span></label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. John Doe / Recruiter Name" required autocomplete="name">
+                  <span class="form-error" id="name-error" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email <span class="required-star">*</span></label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. yourname@example.com" required autocomplete="email">
+                  <span class="form-error" id="email-error" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject <span class="required-star">*</span></label>
+                  <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Internship Opportunity / Collaboration" required>
+                  <span class="form-error" id="subject-error" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message <span class="required-star">*</span></label>
+                  <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Hello Shreya, I reviewed your portfolio and would like to connect regarding..." required></textarea>
+                  <span class="form-error" id="message-error" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="contact-submit-btn">
+                  <span>Open Email Client</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+                <p class="form-note">
+                  🔒 Clicking submit prepares a pre-filled email in your default mail app addressed to shettyshreu24@gmail.com.
+                </p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="brand-monogram">S</span>
+            <span class="brand-text">
+              <span class="brand-name">Shreya Shetty</span>
+              <span class="brand-sub">First Year MCA Student</span>
+            </span>
+          </div>
+          <p class="footer-tagline">
+            Poornaprajna Institute of Management (PIM), Udupi, Karnataka.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#aspirations">Aspirations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          &copy; <span id="current-year">2026</span> Shreya Shetty. Built with HTML5, CSS3 &amp; Vanilla JavaScript. All Rights Reserved.
+        </p>
+        <div class="footer-controls">
+          <a href="#hero" class="back-to-top" id="back-to-top-btn" aria-label="Back to top of page">
+            <span>Back to top</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RESUME MODAL -->
+  <div id="resume-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title" aria-hidden="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <h2 id="resume-modal-title" class="modal-title">Shreya Shetty — Curriculum Vitae</h2>
+          <span class="modal-sub">First Year MCA • Poornaprajna Institute of Management</span>
+        </div>
+        <div class="modal-actions-top">
+          <button type="button" class="btn btn-outline btn-sm" id="print-resume-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Print / Save PDF</span>
+          </button>
+          <button type="button" class="icon-btn close-modal-btn" id="close-resume-modal-btn" aria-label="Close resume modal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Resume Printable Document Body -->
+      <div class="modal-body printable-resume" id="printable-resume-area">
+        
+        <!-- Resume Header -->
+        <header class="cv-header">
+          <div>
+            <h1 class="cv-name">Shreya Shetty</h1>
+            <p class="cv-role">First Year MCA Student • Aspiring Software Developer</p>
+          </div>
+          <div class="cv-contact-info">
+            <p><strong>Email:</strong> shettyshreu24@gmail.com</p>
+            <p><strong>Phone:</strong> +91 8310943543</p>
+            <p><strong>Location:</strong> Udupi, Karnataka, India</p>
+          </div>
+        </header>
+
+        <!-- Objective Statement -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Objective &amp; Statement</h2>
+          <p class="cv-text">
+            Hardworking, motivated college student pursuing a Master of Computer Applications at Poornaprajna Institute of Management (PIM). Passionate about learning modern software engineering methodologies, web development, and data analysis. Dedicated to discipline, continuous learning, and building a rewarding career while contributing to real-world technical teams.
+          </p>
+        </section>
+
+        <!-- Education -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Academic Education</h2>
+          <div class="cv-entry">
+            <div class="cv-entry-row">
+              <strong class="cv-degree">Master of Computer Applications (MCA)</strong>
+              <span class="cv-date">2026 – 2028 | Pursuing</span>
+            </div>
+            <div class="cv-inst">Poornaprajna Institute of Management (PIM), Udupi, Karnataka</div>
+            <p class="cv-notes">Specialization: Computer Applications &amp; Software Development</p>
+          </div>
+          <div class="cv-entry">
+            <div class="cv-entry-row">
+              <strong class="cv-degree">Bachelor of Computer Applications (BCA)</strong>
+              <span class="cv-date">2023 – 2026 | Completed</span>
+            </div>
+            <div class="cv-inst">Undergraduate University Institution, Karnataka</div>
+            <p class="cv-notes">Specialization: Computer Applications</p>
+          </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Work Experience</h2>
+          <div class="cv-entry">
+            <div class="cv-entry-row">
+              <strong class="cv-degree">Data Executive</strong>
+              <span class="cv-date">2024 – 2026</span>
+            </div>
+            <div class="cv-inst">Desicrew Pvt Limited</div>
+            <ul class="cv-bullets">
+              <li>Processed, verified, and audited operational datasets ensuring 100% adherence to quality standards and documentation requirements.</li>
+              <li>Collaborated with team leads on data entry accuracy, report validation, and administrative records.</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Academic &amp; Collaborative Projects</h2>
+          <div class="cv-entry">
+            <div class="cv-entry-row">
+              <strong class="cv-degree">Restaurant Review Sentimental Analysis (In Progress)</strong>
+              <span class="cv-date">Web Development / NLP</span>
+            </div>
+            <p class="cv-text">
+              Project analyzing customer reviews and ratings to track customer satisfaction trends. Actively participated by contributing ideas, collecting relevant datasets, and helping in the planning and development workflow.
+            </p>
+          </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Technical Skills &amp; Proficiencies</h2>
+          <div class="cv-skills-grid">
+            <p><strong>Core Languages:</strong> Python (Basic), PHP (Basic), C (Basic), Java (Basic)</p>
+            <p><strong>Web &amp; Frontend:</strong> HTML, CSS, JavaScript, Responsive Web Design</p>
+            <p><strong>Backend &amp; Frameworks:</strong> Node.js, Express.js, ASP.NET</p>
+            <p><strong>Databases:</strong> MySQL, SQLite, Oracle Database</p>
+            <p><strong>Data Science:</strong> NumPy, Pandas, Matplotlib</p>
+            <p><strong>Tools &amp; Cloud:</strong> Git, GitHub, VS Code, Vercel, Azure, GitHub Pages</p>
+            <p><strong>Foundations:</strong> Data Structures &amp; Algorithms, OOP, UI/UX Design</p>
+          </div>
+        </section>
+
+        <!-- Additional Information -->
+        <section class="cv-section">
+          <h2 class="cv-section-title">Languages &amp; Personal Details</h2>
+          <p><strong>Languages Spoken:</strong> English, Kannada, Tulu, Hindi</p>
+          <p><strong>Interests:</strong> UI/UX Design, Data Science, Cybersecurity, Artificial Intelligence</p>
+          <p><strong>Hobbies:</strong> Drawing, Singing, Watching Movies</p>
+        </section>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT BREAKDOWN DETAIL MODAL -->
+  <div id="project-1-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="project-modal-title" aria-hidden="true">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <div class="project-badge-group">
+            <span class="badge badge-category">Web Development</span>
+            <span class="badge badge-warning">
+              <span class="status-pulse-dot warning-dot" aria-hidden="true"></span>
+              In Progress
+            </span>
+          </div>
+          <h2 id="project-modal-title" class="modal-title">Restaurant Review Sentimental Analysis</h2>
+        </div>
+        <button type="button" class="icon-btn close-modal-btn" data-close-modal="project-1-modal" aria-label="Close project modal">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body project-modal-body">
+        
+        <div class="modal-section">
+          <h3 class="modal-section-title">Project Overview</h3>
+          <p class="modal-desc">
+            This collaborative project focuses on analyzing customer reviews and ratings of restaurants to measure customer sentiment, satisfaction levels, and key feedback topics.
+          </p>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">The Problem Being Solved</h3>
+          <p class="modal-desc">
+            Restaurant managers often struggle to manually parse through hundreds of textual online reviews across various platforms. The solution aims to track how much reviews and ratings are received, automatically categorize positive, neutral, and negative sentiments, and distill actionable feedback to improve culinary service.
+          </p>
+        </div>
+
+        <div class="modal-section highlight-box">
+          <h3 class="modal-section-title">Shreya's Key Contributions</h3>
+          <ul class="modal-list">
+            <li><strong>Ideation &amp; Requirement Definition:</strong> Actively brainstormed user flows and analysis goals for tracking restaurant reputation.</li>
+            <li><strong>Data Gathering &amp; Preparation:</strong> Assisted in gathering real-world customer review samples, ratings benchmarks, and categorization schemas.</li>
+            <li><strong>Planning &amp; Iteration:</strong> Participated in sprint discussions, frontend layout planning, and analytical testing.</li>
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h3 class="modal-section-title">Planned Architecture &amp; Tech Stack</h3>
+          <div class="modal-tech-grid">
+            <div class="tech-box">
+              <span class="tech-box-title">Data &amp; NLP</span>
+              <span class="tech-box-val">Python, Pandas, Text Processing</span>
+            </div>
+            <div class="tech-box">
+              <span class="tech-box-title">Frontend Presentation</span>
+              <span class="tech-box-val">HTML, CSS, JavaScript UI</span>
+            </div>
+            <div class="tech-box">
+              <span class="tech-box-title">Analysis Metrics</span>
+              <span class="tech-box-val">Sentiment Scoring &amp; Star Ratings</span>
+            </div>
+            <div class="tech-box">
+              <span class="tech-box-title">Current Status</span>
+              <span class="tech-box-val text-warning">Active In-Progress Development</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer-cta">
+          <a href="#contact" class="btn btn-primary modal-contact-trigger">
+            <span>Inquire About This Project</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
