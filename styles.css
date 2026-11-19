@@ -9,26 +9,26 @@
    1. CSS CUSTOM PROPERTIES (DESIGN TOKENS)
    -------------------------------------------------------------------------- */
 :root {
-  /* Dark Navy Blue Background */
-  --bg-primary: #020B24;     /* Deep rich midnight sapphire blue */
-  --bg-secondary: #061638;   /* Slightly elevated royal indigo-blue */
-  --bg-tertiary: #0B1F45;       /* Subtle slate navy blue */
-  --bg-surface:  #0F234B;     /* Luxurious deep navy card surface */
-  --bg-glass: rgba(10, 25, 55, 0.92);
-  --bg-modal-overlay: rgba(2, 7, 20, 0.88);
+/* Professional AI Navy Background */
+  --bg-primary:  #020817;    /* Deep rich midnight sapphire blue */
+  --bg-secondary: #07152E;   /* Slightly elevated royal indigo-blue */
+  --bg-tertiary:  #0B1F40;    /* Subtle slate navy blue */
+  --bg-surface:  #0D2042;     /* Luxurious deep navy card surface */
+  --bg-glass: rgba(3, 12, 30, 0.90);
+  --bg-modal-overlay: rgba(1, 5, 15, 0.90);
 
  /* Font Colours */
   --text-primary: #FFFFFF;     /* Striking vibrant rose pink for headlines & accents */
   --text-secondary:  #CBD5E1;     /* Soft blush pink for readable paragraphs & text */
   --text-muted: #94A3B8   /* Medium radiant pink for dates, tags, and sublabels */
-  --text-inverse:  #020B24;      /* Deep navy blue text on pink buttons/pills */
+  --text-inverse: #020817;     /* Deep navy blue text on pink buttons/pills */
   --text-heading: #FFFFFF;
-  --text-bright-pink:  #22D3EE;
+  --text-bright-pink: #22D3EE;
    
 /* Cyan and Purple Borders */
   --border-subtle:#164E8A;   /* Blue border with subtle pink glow */
   --border-strong: #22D3EE;     /* Vibrant pink border */
-  --border-focus: #A855F7;  /* Hot pink focus ring */
+  --border-focus:  #3B82F6; /* Hot pink focus ring */
    
 /* Accent Colours */
   --accent-black:#22D3EE;     /* Hot pink for primary action elements */
