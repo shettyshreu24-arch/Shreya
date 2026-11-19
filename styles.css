@@ -877,10 +877,10 @@ ul {
 }
 
 .hero-title-sub {
-  color: var(--text-secondary);
+  color: #FFFFFF !important;
   font-weight: 600;
   display: block;
-  -webkit-text-fill-color: var(--text-secondary);
+  -webkit-text-fill-color: #FFFFFF !important;
 }
 
 .hero-institution {
