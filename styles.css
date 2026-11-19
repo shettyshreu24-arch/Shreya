@@ -9,30 +9,33 @@
    1. CSS CUSTOM PROPERTIES (DESIGN TOKENS)
    -------------------------------------------------------------------------- */
 :root {
-  /* Default: Blue Background + Pink Typography Theme */
-  --bg-primary: #0a1128;         /* Deep rich midnight sapphire blue */
-  --bg-secondary: #0f1c4d;       /* Slightly elevated royal indigo-blue */
-  --bg-tertiary: #162662;        /* Subtle slate navy blue */
-  --bg-surface: #101e52;         /* Luxurious deep navy card surface */
-  --bg-glass: rgba(10, 17, 40, 0.92);
-  --bg-modal-overlay: rgba(4, 7, 20, 0.88);
+  /* Dark Navy Blue Background */
+  --bg-primary: #020B24;     /* Deep rich midnight sapphire blue */
+  --bg-secondary: #061638;   /* Slightly elevated royal indigo-blue */
+  --bg-tertiary: #0B1F45;       /* Subtle slate navy blue */
+  --bg-surface:  #0F234B;     /* Luxurious deep navy card surface */
+  --bg-glass: rgba(10, 25, 55, 0.92);
+  --bg-modal-overlay: rgba(2, 7, 20, 0.88);
 
-  --text-primary: #ff6599;       /* Striking vibrant rose pink for headlines & accents */
-  --text-secondary: #ffb8d1;     /* Soft blush pink for readable paragraphs & text */
-  --text-muted: #f472b6;         /* Medium radiant pink for dates, tags, and sublabels */
-  --text-inverse: #0a1128;       /* Deep navy blue text on pink buttons/pills */
-  --text-heading: #ff75a0;
-  --text-bright-pink: #ff2a85;
-
-  --border-subtle: #233979;      /* Blue border with subtle pink glow */
-  --border-strong: #ff6599;      /* Vibrant pink border */
-  --border-focus: #ff2a85;       /* Hot pink focus ring */
-
-  --accent-black: #ff2a85;       /* Hot pink for primary action elements */
-  --accent-white: #0a1128;       /* Deep blue contrasting surface */
-  --accent-gray: #ff5299;        /* Hover pink */
-  
-  --badge-bg: #15245e;
+ /* Font Colours */
+  --text-primary: #FFFFFF;     /* Striking vibrant rose pink for headlines & accents */
+  --text-secondary:  #CBD5E1;     /* Soft blush pink for readable paragraphs & text */
+  --text-muted: #94A3B8   /* Medium radiant pink for dates, tags, and sublabels */
+  --text-inverse:  #020B24;      /* Deep navy blue text on pink buttons/pills */
+  --text-heading: #FFFFFF;
+  --text-bright-pink:  #22D3EE;
+   
+/* Cyan and Purple Borders */
+  --border-subtle:#164E8A;   /* Blue border with subtle pink glow */
+  --border-strong: #22D3EE;     /* Vibrant pink border */
+  --border-focus: #A855F7;  /* Hot pink focus ring */
+   
+/* Accent Colours */
+  --accent-black:#22D3EE;     /* Hot pink for primary action elements */
+  --accent-white: #FFFFFF; /* Deep blue contrasting surface */
+  --accent-gray: #3B82F6;        /* Hover pink */
+ /* Badges */
+  --badge-bg: #102B55;
   --badge-border: #2e4696;
   --badge-text: #ffb8d1;
 
@@ -68,22 +71,22 @@
 
 /* Alternate Theme: Cosmic Deep Space Blue & Glowing Neon Hot Pink */
 [data-theme="dark"] {
-  --bg-primary: #050917;         /* Cosmic deep black-blue */
-  --bg-secondary: #09102b;       /* Dark cobalt blue */
-  --bg-tertiary: #101c48;        /* Electric dark blue */
-  --bg-surface: #0c153b;         /* Neon-bordered dark blue card */
+  --bg-primary: #0a1128;       /* Cosmic deep black-blue */
+  --bg-secondary: #0f1c4d;      /* Dark cobalt blue */
+  --bg-tertiary: #162662;       /* Electric dark blue */
+  --bg-surface: #101e52;        /* Neon-bordered dark blue card */
   --bg-glass: rgba(5, 9, 23, 0.94);
   --bg-modal-overlay: rgba(2, 4, 12, 0.92);
 
-  --text-primary: #ff5c8d;       /* Neon hot pink */
-  --text-secondary: #ffaac5;     /* Glowing soft pink */
-  --text-muted: #f472b6;         /* Orchid pink */
-  --text-inverse: #050917;
-  --text-accent: #ff1493;
+  --text-primary: #FFFFFF;      /* Neon hot pink */
+  --text-secondary: #CBD5E1;    /* Glowing soft pink */
+  --text-muted:  #94A3B8;        /* Orchid pink */
+  --text-inverse:  #020B24;
+  --text-accent:  #22D3EE;
 
-  --border-subtle: #1e326e;
-  --border-strong: #ff5c8d;
-  --border-focus: #ff1493;
+  --border-subtle: #164E8A;
+  --border-strong: #22D3EE;
+  --border-focus: #A855F7;
 
   --accent-black: #ff1493;
   --accent-white: #050917;
